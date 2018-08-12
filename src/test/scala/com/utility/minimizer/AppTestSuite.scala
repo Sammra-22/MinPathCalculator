@@ -5,7 +5,7 @@ import org.scalatest.junit.JUnitRunner
 import org.junit.runner.RunWith
 
 @RunWith(classOf[JUnitRunner])
-class AppSuite extends FunSuite {
+class AppTestSuite extends FunSuite {
 
   test("Parse triangle line with correct input") {
     assert(parseTriangleLine("1") === Array(1))
@@ -21,8 +21,7 @@ class AppSuite extends FunSuite {
   }
 
   test("Build tree with correct input") {
-    val rootNode = new TreeNode(1)
-    TreeNode.buildTree(Seq("3 5", "7 8 9"), Seq(rootNode))
+    val rootNode = TreeNode.generateTree(List("1", "3 5", "7 8 9"))
     assert(rootNode.value === 1)
     assert(rootNode.left.get.value === 3)
     assert(rootNode.right.get.value === 5)
@@ -31,18 +30,31 @@ class AppSuite extends FunSuite {
   }
 
   test("Build tree with non Integer input") {
-    val rootNode = new TreeNode(1)
     val thrown = intercept[Exception] {
-      TreeNode.buildTree(Seq("3 d"), Seq(rootNode))
+      TreeNode.generateTree(List("1", "3 d"))
     }
     assert(thrown.isInstanceOf[NumberFormatException])
   }
 
   test("Build tree with non triangle input") {
-    val rootNode = new TreeNode(1)
     val thrown = intercept[Exception] {
-      TreeNode.buildTree(Seq("3 8 9"), Seq(rootNode))
+      TreeNode.generateTree(List("1", "3 8 9"))
     }
     assert(thrown.isInstanceOf[IllegalArgumentException])
+  }
+
+  test("Generate single path test") {
+    val paths = TreeNode.generatePaths(new TreeNode(5))
+    assert(paths.size === 1)
+    assert(paths.head === List(5))
+  }
+
+  test("Generate multiple paths test") {
+    val paths = TreeNode.generatePaths(new TreeNode(5,
+      Some(new TreeNode(3)),
+      Some(new TreeNode(2))))
+    assert(paths.size === 2)
+    assert(paths.head === List(5, 3))
+    assert(paths.tail.head === List(5, 2))
   }
 }

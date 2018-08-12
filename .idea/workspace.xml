@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257087f0-511a-4181-9103-67664f67ddb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppSuite.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MinimalPathCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MinimalPathCalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/minimalpathcalculator-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/minimalpathcalculator-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppTestSuite.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,23 +116,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="scala" value="4" />
+          <entry key="scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="2" />
-          <entry key="scala" value="399" />
+          <entry key="scala" value="1527" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="399" />
+          <entry key="Scala" value="1527" />
           <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
@@ -154,6 +150,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/assembly.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -165,35 +170,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="135">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <element signature="e#31#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppSuite.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppTestSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="210">
+              <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="e#31#60#0" expanded="true" />
               </folding>
@@ -214,9 +213,10 @@
         <option value="$PROJECT_DIR$/assembly.sbt" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppSuite.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppTestSuite.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala" />
       </list>
     </option>
   </component>
@@ -224,8 +224,8 @@
     <scope name="Spring_Roo" pattern="!*_Roo_*" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="267" />
-    <option name="y" value="23" />
+    <option name="x" value="207" />
+    <option name="y" value="61" />
     <option name="width" value="1489" />
     <option name="height" value="888" />
   </component>
@@ -305,7 +305,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534086440788" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534094159573" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="options.searchVisible" value="true" />
@@ -338,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppSuite">
+  <component name="RunManager" selected="Application.App">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -368,7 +368,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MinimalPathCalculator" />
       <extension name="coverage">
         <pattern>
@@ -377,7 +377,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.utility.minimizer" />
-      <option name="MAIN_CLASS_NAME" value="com.utility.minimizer.AppSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.utility.minimizer.AppTestSuite" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -464,12 +464,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.AppSuite" />
+      <item itemvalue="JUnit.AppTestSuite" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppSuite" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -500,6 +500,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4602010115000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1051934648" />
         <entry key="$PROJECT_DIR$/project/assembly.sbt" value="2766693235" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3771982881" />
@@ -520,39 +521,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppSuite - 2018.08.12 at 16h 32m 53s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 17h 29m 50s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 16h 33m 15s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 17h 30m 00s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 16h 38m 47s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 17h 30m 34s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 16h 44m 36s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 18h 22m 57s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 16h 48m 56s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 18h 23m 59s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 16h 50m 45s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 18h 40m 30s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 17h 02m 51s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 18h 52m 45s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 17h 03m 35s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 18h 54m 42s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppSuite - 2018.08.12 at 17h 04m 24s.xml">
-      <configuration name="AppSuite" configurationId="JUnit" />
+    <history-entry file="AppTestSuite - 2018.08.12 at 19h 01m 07s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTestSuite - 2018.08.12 at 19h 15m 13s.xml">
+      <configuration name="AppTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="267" y="23" width="1489" height="888" extended-state="0" />
+    <frame x="207" y="61" width="1489" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4326192" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4326192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -561,8 +565,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45603016" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33542714" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39949748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -606,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/assembly.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -620,34 +617,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppSuite.scala">
+    <entry file="file://$PROJECT_DIR$/project/assembly.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/utility/minimizer/AppTestSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="e#31#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="435">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/MainApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#31#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/TreeNode.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utility/minimizer/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
