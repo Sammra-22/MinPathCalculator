@@ -57,4 +57,14 @@ class AppTestSuite extends FunSuite {
     assert(paths.head === List(5, 3))
     assert(paths.tail.head === List(5, 2))
   }
+
+  test("Calculate minimal path") {
+    val paths = List(List(1, 2, 4), List(1, 5, 8), List(3, 2, 1))
+    val minPath_1 = calculateMinPath(paths)
+    assert(minPath_1 === List(3, 2, 1))
+    val minPath_2 = calculateMinPath(paths.dropRight(1))
+    assert(minPath_2 === List(1, 2, 4))
+    val minPath_3 = calculateMinPath(paths.dropRight(2))
+    assert(minPath_3 === List(1, 2, 4))
+  }
 }

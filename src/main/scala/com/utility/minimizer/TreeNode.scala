@@ -13,12 +13,13 @@ case class TreeNode(value: Int,
         case head :: tail =>
           val values = parseTriangleLine(head)
           if (values.length != directParents.size + 1) throw new IllegalArgumentException
+          val childNodes = values.map(v => Some(new TreeNode(v))).toSeq
           for (i <- directParents.indices) {
-            directParents(i).left = Some(new TreeNode(values(i)))
-            directParents(i).right = Some(new TreeNode(values(i + 1)))
+            directParents(i).left = childNodes(i)
+            directParents(i).right = childNodes(i+1)
           }
           if (tail.nonEmpty) {
-            appendNodes(triangleLines.tail, directParents.flatMap(node => Seq(node.left.get, node.right.get)))
+            appendNodes(triangleLines.tail, childNodes.map(n => n.get))
           }
       }
     }
