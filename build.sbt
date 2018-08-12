@@ -6,8 +6,4 @@ scalaVersion := "2.12.6"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 
-/*
-scalaSource in (Compile, run) := baseDirectory.value / "src" / "main" / "scala"
-
-mainClass in(Compile, run) := Some("com.utility.minimizer.Hello")
-*/
+libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default"
